@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+html {
+    font-size: 75%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #783d06e7;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      -webkit-transform: translateY(-2rem);
+              transform: translateY(-2rem);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      -webkit-transform: translateY(-2rem);
+              transform: translateY(-2rem);
+      opacity: 0;
+    }
+  }
+  
+  section {
+    padding: 5rem 1rem;
+  }
+  
+  .link-btn {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border: 0.1rem solid #512a10;
+    color: #512a10;
+    background: none;
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  
+  .link-btn:hover {
+    background: #512a10;
+    color: #fff;
+  }
+  
+  .home {
+    
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/home-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Minor-project/photos/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .home span {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .home h3 {
+    padding: 1rem 0;
+    font-size: 6rem;
+    color: #fff;
+  }
+  
+  .home .link-btn {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .about span {
+    font-size: 2.5rem;
+    color: #512a10;
+  }
+  
+  .about .title {
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #222;
+  }
+  
+  .about p {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .about .icons-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1.5rem;
+  }
+  
+  .about .icons-container .icons {
+    padding: 2rem;
+    background: #eee;
+    text-align: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 14rem;
+            flex: 1 1 14rem;
+  }
+  
+  .about .icons-container .icons i {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #512a10;
+  }
+  
+  .about .icons-container .icons h3 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #222;
+  }
+  
+  .newsletter {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(..newsletter-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Minor-project/photos/newsletter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .newsletter h3 {
+    font-size: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  .newsletter p {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .newsletter form {
+    margin: 1rem auto;
+    max-width: 60rem;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .newsletter form .link-btn {
+    margin-top: 0;
+  }
+  
+  .newsletter form .email {
+    width: 100%;
+    padding: 0 1.4rem;
+    font-size: 1.6rem;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .footer .logo {
+    font-size: 3rem;
+    color: #512a10;
+    font-weight: bolder;
+  }
+  
+  .footer .credit {
+    margin: 2rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #222;
+  }
+  
+  .footer .credit span {
+    text-decoration: underline !important;
+  }
+  
+  .footer .share {
+    margin-top: 3rem;
+  }
+  
+  .footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: 0.1rem solid #512a10;
+    color: #512a10;
+    margin: 0 .3rem;
+  }
+  
+  .footer .share a:hover {
+    background: #512a10;
+    color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+      scroll-padding-top: 8rem;
+    }
+    .home h3 {
+      font-size: 4rem;
+    }
+    section {
+      padding: 3rem 0;
+    }
+  }
+    
